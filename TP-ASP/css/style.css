@@ -1,0 +1,310 @@
+/*PRELOADER*/
+#preload {
+    background-color: #E2FCEF;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url(../images/loading.gif);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    height: 100%;
+}
+
+
+/*#navbar li a {
+    margin-left: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+#navbar li a:hover {
+    border-bottom: 2px solid #9ad3de;
+}*/
+
+
+#first-section {
+    color: rgb(154, 211, 222);
+    height: 100vh;
+}
+
+#first-content{
+    height:100%;
+    position:relative;
+}
+
+#title {
+    font-size: 300%;
+    font-weight: 900;
+    width: 40%;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+#subtitle {
+    font-size: 150%;
+    position: absolute;
+    left: 10%;
+    top: 36%;
+}
+
+#count-down {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    font-size: 300%;
+}
+
+#timer {
+    margin-top: -10px;
+    margin-left: 30px;
+    color: #fff;
+    background-color: #9ad3de;
+    padding: 15px;
+}
+
+#quote {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+
+#register {
+    text-decoration: none;
+    color: #fff;
+    background-color: #9ad3de;
+    padding: 30px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+
+#back-vid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    z-index: -1;
+}
+
+
+#first-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#sec2{
+    background-color: #feffff;
+}
+#sec3{
+    background-color: #9ad3de;
+}
+
+#sec2-title {
+    font-weight: 900;
+    text-align: center;
+    color: #000;
+    border-bottom: 2px solid #9ad3de;
+}
+
+
+.p-sld {
+    color: #000;
+}
+
+#next {
+    float: right;
+    background-color: #9ad3de;
+}
+
+#prev {
+    background-color: #9ad3de;
+}
+
+#img1 {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#img2{
+    width: 100%;
+}
+
+
+#sec3 h1 {
+    font-weight: 600;
+}
+
+.card button {
+    color: #000;
+    font-weight: 600;
+    width: 100%;
+}
+
+.card button:hover {
+    color: #fff;
+}
+
+#accordion {
+    margin-bottom: 50px;
+}
+
+
+.carousel-item img {
+    height: 600px;
+}
+
+
+
+#sec5-content h1 {
+    margin-top: 20px;
+    font-size: 400%;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card {
+    margin: 10px;
+    background-color: #fff;
+}
+
+.card p {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-bottom: 2px solid rgb(154, 211, 222);
+    width: 100%;
+}
+
+
+.card a:hover {
+    color: #9b287b;
+    background-color: #e2fcef;
+}
+
+
+#sec6-content h1 {
+    margin-top: 20px;
+    font-size: 400%;
+    font-weight: 900;
+    text-align: center;
+}
+
+#sec6-content p {
+    font-size: 200%;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#sec6-content .row {
+    margin: 20px;
+}
+
+#sec6-content img {
+    height: 130px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+hr {
+    height: 50px;
+    background-color: rgba(155, 40, 123, 0.3);
+}
+
+#sec7 input[type='text'],#sec7 input[type='email'],
+#sec7 textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    background-color: #e1e8f0;
+    border-bottom: 2px solid #89bdd3;
+}
+
+#sec7 input[type='text']:focus,#sec7 input[type='email']:focus,
+#sec7 textarea:focus {
+    outline: none;
+}
+
+#sec7 input[type='submit']{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    cursor: pointer;
+}
+
+#sec7 legend,
+#loc {
+    font-weight: 600;
+}
+
+#sec7 iframe {
+    height: 100%;
+    width: 80%
+}
+
+section {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.btn{
+    color: #000;
+}
+#ttl{
+    text-align: center;
+}
+#sec4{
+    background-color: #fff;
+}
+#sec5{
+    background-color: #9ad3de;
+}
+#sec6{
+    background-color: #fff;
+}
+#sec7{
+    background-color: #e1e8f0;
+}
+footer{
+    background-color: aliceblue;
+}
+.spanElement {
+    color: red;
+}

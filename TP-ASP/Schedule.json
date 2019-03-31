@@ -1,0 +1,46 @@
+{
+  "plan": {
+    "keynote": {
+      "speaker": "David Heymann",
+      "img": "images/heymann.jpg",
+      "title": "KEYNOTE PANEL: THE GLOBAL CALL TO ACTION",
+      "body": "A persistent concern among those leading the charge against AMR is that the energy and momentum around the global call to action, so palpable following the UNGA special declaration in September 2016, are faltering and political will is fading. Where does the global call to action go from here?",
+      "tm": "9:00 - 10:00"
+    },
+    "panel": {
+      "speaker": "Jean Patel",
+      "img": "images/patel.jpg",
+      "title": "KEYNOTE PANEL: THE GLOBAL CALL TO ACTION",
+      "body": "New initiatives such as the Global Antimicrobial Resistance Surveillance System (GLASS) aim to gradually build a picture of resistant bugs across the world. We need a better picture as to how many people die from or survive AMR-related episodes, how concentrated resistant genes are in the environment, and what might be the most appropriate and affordable interventions. The paucity of data is especially acute in developing countries. How can “big data” enhance our understanding of the epidemiology of resistant organisms?",
+      "tm": "10:00 - 12:00"
+    },
+    "spotlight": {
+      "speaker": "IRUKA N OKEKE",
+      "img": "images/iruka.jpeg",
+      "title": "SPOTLIGHT: SCIENCE 101",
+      "body": "If developing antibiotics were simple, there would be more than one or two prospects in the pipeline, even for the most resistant Gram-negative bacterial infections. Why is the science so hard, and what prospective antibiotics look most promising?",
+      "tm": "13:00 - 14:00"
+    },
+    "panel2": {
+      "speaker": "Kevin Outterson",
+      "img": "images/outterson.jpg",
+      "title": "PANEL: THE (PRIVATE-SECTOR) INVESTMENT CONUNDRUM",
+      "body": "If new classes of antibiotics are to be used sparingly or squirrelled away for last use, why invest in their development? This conundrum—in which the old model of volume-based reimbursement is failing—sits at the heart of why pharma companies are no longer interested in investing in antibiotics, and why the pipeline is so weak. Several initiatives have sought to identify “pull” incentives that will reward successful R&D outcomes and thereby persuade pharma to re-engage in drug development. So far, industry remains unconvinced, and governments are reluctant. Yet solving this market failure is a matter of urgency. What incentives show the most potential, and can they be made to work?",
+      "tm": "14:00 - 15:00"
+    },
+    "panel3": {
+      "speaker": "Clare Chandler",
+      "img": "images/clare.jpg",
+      "title": "PANEL: THE (PUBLIC-SECTOR) INVESTMENT CONUNDRUM",
+      "body": "With pharma companies unable or unwilling to invest in the long-term sustainable financing of antibiotic and antimicrobial R&D, governments may need to play a greater role. Some have suggested we should regard measures to reduce AMR similarly to infrastructure investment: as a critical public good worthy of public investment.",
+      "tm": "15:00 - 16:00"
+    },
+    "end": {
+      "speaker": "Sprenger",
+      "img": "images/Sprenger.jpg",
+      "title": "ASK THE ECONOMIST: WHERE TO NEXT?",
+      "body": "In this closing session, a panel of Economist editors will discuss the day’s findings, and where and how to act and invest to ensure continued progress on fighting AMR.",
+      "tm": "16:00 - 17:00"
+    }
+  }
+}
