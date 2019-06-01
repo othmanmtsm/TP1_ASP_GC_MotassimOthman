@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 
 public partial class main : System.Web.UI.Page
 {
-    static string cnxstr = WebConfigurationManager.ConnectionStrings["pCnx"].ConnectionString;
+    static string cnxstr = WebConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
     SqlConnection cnx = new SqlConnection(cnxstr);
     protected void Page_Load(object sender, EventArgs e)
     {

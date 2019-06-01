@@ -12,7 +12,7 @@ using System.Net;
 
 public partial class Register : System.Web.UI.Page
 {
-    static string cnxstr = WebConfigurationManager.ConnectionStrings["pCnx"].ConnectionString;
+    static string cnxstr = WebConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
     SqlConnection cnx = new SqlConnection(cnxstr);
 
     public object MasterPageClassName { get; private set; }
