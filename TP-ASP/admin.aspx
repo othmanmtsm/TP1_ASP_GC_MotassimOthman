@@ -5,13 +5,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="header" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cBody" Runat="Server">
-     <div class="container">
-    <div class="row">
-        <form runat="server" class="col-8 mb-5 mt-5 mx-auto" action="#" method="post">
-        <h5>Login</h5>
+<div class="container">
+    <div class="row mt-5">
         <asp:PlaceHolder runat="server" ID="LoginStatus" Visible="False">
             <asp:Literal ID="Msg" runat="server"></asp:Literal>
         </asp:PlaceHolder>
+        <form runat="server" class="col-8 mb-5 mt-5 mx-auto" action="#" method="post">
+            <h5>Login</h5>
             <label>Username *<br/>
                 <asp:TextBox ID="txtName" name="username" placeholder="Username" runat="server" class="form-control"></asp:TextBox>
                 <asp:RequiredFieldValidator ForeColor="Red" ID="RequiredFieldValidator3" runat="server" ErrorMessage="Please enter your email" ControlToValidate="txtName"></asp:RequiredFieldValidator>

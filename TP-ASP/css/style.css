@@ -54,9 +54,9 @@ body {
     height: 100vh;
 }
 
-#first-content{
-    height:100%;
-    position:relative;
+#first-content {
+    height: 100%;
+    position: relative;
 }
 
 #title {
@@ -129,10 +129,11 @@ body {
     z-index: -1;
 }
 
-#sec2{
+#sec2 {
     background-color: #feffff;
 }
-#sec3{
+
+#sec3 {
     background-color: #9ad3de;
 }
 
@@ -162,7 +163,7 @@ body {
     width: 100%;
 }
 
-#img2{
+#img2 {
     width: 100%;
 }
 
@@ -177,9 +178,9 @@ body {
     width: 100%;
 }
 
-.card button:hover {
-    color: #fff;
-}
+    .card button:hover {
+        color: #fff;
+    }
 
 #accordion {
     margin-bottom: 50px;
@@ -204,18 +205,18 @@ body {
     background-color: #fff;
 }
 
-.card p {
-    background-color: #fff;
-    padding: 40px 20px;
-    border-bottom: 2px solid rgb(154, 211, 222);
-    width: 100%;
-}
+    .card p {
+        background-color: #fff;
+        padding: 40px 20px;
+        border-bottom: 2px solid rgb(154, 211, 222);
+        width: 100%;
+    }
 
 
-.card a:hover {
-    color: #9b287b;
-    background-color: #e2fcef;
-}
+    .card a:hover {
+        color: #9b287b;
+        background-color: #e2fcef;
+    }
 
 
 #sec6-content h1 {
@@ -247,7 +248,7 @@ hr {
     background-color: rgba(155, 40, 123, 0.3);
 }
 
-#sec7 input[type='text'],#sec7 input[type='email'],
+#sec7 input[type='text'], #sec7 input[type='email'],
 #sec7 textarea {
     margin: 10px;
     padding: 10px;
@@ -257,12 +258,12 @@ hr {
     border-bottom: 2px solid #89bdd3;
 }
 
-#sec7 input[type='text']:focus,#sec7 input[type='email']:focus,
-#sec7 textarea:focus {
-    outline: none;
-}
+    #sec7 input[type='text']:focus, #sec7 input[type='email']:focus,
+    #sec7 textarea:focus {
+        outline: none;
+    }
 
-#sec7 input[type='submit']{
+#sec7 input[type='submit'] {
     margin: 10px;
     padding: 10px;
     width: 80%;
@@ -284,27 +285,34 @@ section {
     padding-top: 5%;
 }
 
-.btn{
+.btn {
     color: #000;
 }
-#ttl{
+
+#ttl {
     text-align: center;
 }
-#sec4{
+
+#sec4 {
     background-color: #fff;
 }
-#sec5{
+
+#sec5 {
     background-color: #9ad3de;
 }
-#sec6{
+
+#sec6 {
     background-color: #fff;
 }
-#sec7{
+
+#sec7 {
     background-color: #e1e8f0;
 }
-footer{
+
+footer {
     background-color: aliceblue;
 }
+
 .spanElement {
     color: red;
 }

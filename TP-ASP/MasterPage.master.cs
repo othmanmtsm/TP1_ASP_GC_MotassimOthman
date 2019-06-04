@@ -18,7 +18,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
         MailMessage message = new MailMessage();
         message.To.Add(to);
         message.Subject = "ANTIMICROBIAL RESISTANCE";
-        message.From = new MailAddress("othman.motassim18@gmail.com");
+        message.From = new MailAddress("evvccsample@gmail.com");
         message.Body = msg;
         SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
         smtp.EnableSsl = true;
